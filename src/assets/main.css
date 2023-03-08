@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 bg-blue-500 shadow-md rounded-full w-[149px] h-[66px];
+  }
+
+  .btn-primary {
+    @apply bg-indigo-500 text-white;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-black;
+  }
+}
